@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ClipStash – Privacy Policy</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      color: #1a1a1a;
+      line-height: 1.7;
+      font-size: 15px;
+    }
+    h1 { font-size: 24px; margin-bottom: 8px; }
+    h2 { font-size: 18px; margin-top: 32px; margin-bottom: 8px; }
+    p { margin-bottom: 12px; }
+    ul { margin-bottom: 12px; padding-left: 24px; }
+    .date { color: #999; font-size: 13px; margin-bottom: 24px; }
+    a { color: #2563eb; }
+    @media (prefers-color-scheme: dark) {
+      body { background: #141414; color: #e8e8e8; }
+      a { color: #60a5fa; }
+      .date { color: #666; }
+    }
+  </style>
+</head>
+<body>
+  <h1>ClipStash Privacy Policy</h1>
+  <p class="date">Last updated: March 1, 2026</p>
+
+  <h2>Overview</h2>
+  <p>ClipStash is a privacy-first clipboard history manager. We believe your clipboard data is personal, and we treat it that way.</p>
+
+  <h2>Data Collection</h2>
+  <p><strong>We do not collect, transmit, or store any of your data on external servers.</strong></p>
+  <p>All clipboard history, tags, settings, and preferences are stored locally on your device using Chrome's built-in <code>chrome.storage.local</code> API. Your data never leaves your browser.</p>
+
+  <h2>What Data Is Stored Locally</h2>
+  <ul>
+    <li>Text and images you copy to your clipboard</li>
+    <li>The URL and page title where the copy occurred</li>
+    <li>Tags you assign to clips</li>
+    <li>Pin status and timestamps</li>
+    <li>Your extension settings and preferences</li>
+    <li>Payment status (Pro/Free), managed by ExtensionPay</li>
+  </ul>
+
+  <h2>Permissions</h2>
+  <ul>
+    <li><strong>clipboardRead</strong> – To capture text and images you copy</li>
+    <li><strong>storage</strong> – To save your clipboard history locally</li>
+    <li><strong>contextMenus</strong> – To provide right-click paste functionality</li>
+  </ul>
+  <p>We request only the minimum permissions required. We never request access to your browsing history, bookmarks, or other personal data.</p>
+
+  <h2>Third-Party Services</h2>
+  <p>If you choose to upgrade to ClipStash Pro, payment processing is handled by <a href="https://extensionpay.com" target="_blank" rel="noopener">ExtensionPay</a>. ExtensionPay processes payments through Stripe. We do not have access to your credit card details. Please refer to ExtensionPay's privacy policy for their data handling practices.</p>
+
+  <h2>Analytics & Tracking</h2>
+  <p>ClipStash does not include any analytics, telemetry, or tracking code. We have no way to know how you use the extension.</p>
+
+  <h2>Data Deletion</h2>
+  <p>You can delete individual clips, clear all clips, or uninstall the extension to remove all stored data. When you uninstall ClipStash, all locally stored data is automatically removed by Chrome.</p>
+
+  <h2>Changes to This Policy</h2>
+  <p>If we update this privacy policy, we will update the "Last updated" date above. Significant changes will be communicated through the extension update notes.</p>
+
+  <h2>Contact</h2>
+  <p>If you have questions about this privacy policy, please open an issue on our GitHub repository or contact us through the Chrome Web Store listing.</p>
+</body>
+</html>
